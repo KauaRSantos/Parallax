@@ -1,0 +1,109 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #ebf7f8;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+
+h1,h2,h3,h4{
+    font-weight: 900;
+    color: #ebf7f8;
+}
+
+.wrapper{
+   width: 100%;
+   margin: 0;
+}
+
+main{
+   display: block;
+   background-color: white;
+
+}
+
+.container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0;
+    padding: 0 20px;
+}
+
+section.module p{
+    margin-bottom: 40px;
+}
+
+section.module:last-child{
+    margin-bottom: 0;
+}
+
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module.content{
+    padding: 40px;
+    background:#021b2b;
+}
+
+section.module.parallax{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size:cover ;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+}
+
+section.module.parallax::after{
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+   z-index: 0;
+   background: -moz-linear-gradient(to bottom, rgba(0, 0, 0,0) 0, rgba(0, 0, 0,0) 40%, black 100%);
+   background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0,0) 0, rgba(0, 0, 0,0) 40%, black 100%);
+   background: linear-gradient(to bottom, rgba(0, 0, 0,0) 0, rgba(0, 0, 0,0) 40%, black 100%);
+
+}
+
+
+
+section.module.parallax-1{
+    background-image:url(https://rare-gallery.com/mocahbig/1378081-alienware-logo-4k-pc-wallpaper.jpg) ;
+    
+}
+
+section.module.parallax-2{
+    background-image:url(https://pbs.twimg.com/media/BYQ9vSGIcAA0Z8S.jpg:large) ;
+    
+}
+
+section.module.parallax-3{
+    background-image:url(https://cdn.mos.cms.futurecdn.net/361b231a19bf2cef5bf48797b9f4274b.jpg) ;
+    
+}
+
+section.module.parallax-4{
+    background-image:url(https://cabanadoleitor.com.br/wp-content/uploads/2021/03/image-min.jpg) ;
+}
+
+section.module.parallax-5{
+    background-image:url(https://i.ytimg.com/vi/KCDrga_J9HQ/maxresdefault.jpg) ;
+}
+
+
+
+
